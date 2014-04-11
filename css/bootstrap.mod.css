@@ -3,3 +3,19 @@
     max-width: 680px;
     padding: 0px 15px;
 }
+
+
+body {
+margin-top:50px;
+font-family: 'Open Sans', sans-serif;
+font-size: 2em;
+}
+
+
+
+.fondo {
+    /* Para Navegadores que no soportan RGBa mostramos color sólido sin transparencia */
+    background: rgb(255, 255, 255);
+    /* Para navegadores que soportan RGBa mostramos el color sólido con un 50% de opacidad 
+    background: rgba(255, 255, 255, 0.8); */
+}
